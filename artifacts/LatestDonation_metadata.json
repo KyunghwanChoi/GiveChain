@@ -1,0 +1,81 @@
+{
+	"compiler": {
+		"version": "0.8.34+commit.80d5c536"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "latest",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "donor",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint64",
+						"name": "timestamp",
+						"type": "uint64"
+					},
+					{
+						"internalType": "uint256",
+						"name": "campaignId",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setLatest",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/DonationDef.sol": "LatestDonation"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/DonationDef.sol": {
+			"keccak256": "0x00bbc0e71644b68c337b12c0e6973af2bbc443bad2929a6a0bce3b085a556ca8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6ce439e2a8402a2df074ace4699d477e4976e062a5380acdaf31148eddae06b1",
+				"dweb:/ipfs/QmRGU5Gad9MiHpmnjSJEnLARRgeHbZP7NrY6248QiMKbpL"
+			]
+		}
+	},
+	"version": 1
+}

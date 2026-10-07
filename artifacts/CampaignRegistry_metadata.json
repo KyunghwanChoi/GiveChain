@@ -1,0 +1,114 @@
+{
+	"compiler": {
+		"version": "0.8.34+commit.80d5c536"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "campaignCode",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "enum Category",
+						"name": "categoryChoice",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "category",
+				"outputs": [
+					{
+						"internalType": "enum Category",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "code",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "isHealth",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "totalDonated",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/CampaignRegistry.sol": "CampaignRegistry"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/CampaignRegistry.sol": {
+			"keccak256": "0xe7c63cc6056e693ebb2a570a1139a9501d27d038a65a78f28921f0c0208003ca",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3c76815a134f6d35669582d45683f360d64afba218c5a8b00e3399556aa47f0d",
+				"dweb:/ipfs/QmR6RxhWmC9KHZLiYC2JatNAChQAA3HCmdXgYVFkAQK6C9"
+			]
+		}
+	},
+	"version": 1
+}
